@@ -1,0 +1,687 @@
+{
+    "data": {
+        "labels": {
+            "training_labels": "C:/Users/pasca/OneDrive - Florida Atlantic University/Data_Folder/MachineLearning/Microfluidics_2nd_Real_Test_and_Current_Models/2025_1_14_microfluidics_labelling_set.slp",
+            "validation_labels": null,
+            "validation_fraction": 0.1,
+            "test_labels": null,
+            "split_by_inds": false,
+            "training_inds": [
+                4,
+                108,
+                48,
+                90,
+                98,
+                83,
+                154,
+                22,
+                42,
+                179,
+                120,
+                3,
+                16,
+                177,
+                122,
+                57,
+                65,
+                38,
+                73,
+                79,
+                106,
+                18,
+                78,
+                67,
+                11,
+                54,
+                128,
+                116,
+                130,
+                20,
+                14,
+                46,
+                60,
+                40,
+                145,
+                26,
+                157,
+                131,
+                112,
+                102,
+                13,
+                158,
+                89,
+                88,
+                29,
+                70,
+                180,
+                163,
+                166,
+                51,
+                150,
+                133,
+                170,
+                62,
+                24,
+                31,
+                33,
+                39,
+                41,
+                91,
+                15,
+                50,
+                82,
+                69,
+                113,
+                75,
+                101,
+                178,
+                114,
+                47,
+                81,
+                58,
+                105,
+                111,
+                30,
+                141,
+                176,
+                127,
+                25,
+                149,
+                87,
+                110,
+                125,
+                96,
+                19,
+                136,
+                142,
+                63,
+                5,
+                137,
+                86,
+                56,
+                8,
+                146,
+                61,
+                103,
+                80,
+                140,
+                174,
+                167,
+                93,
+                43,
+                94,
+                118,
+                6,
+                34,
+                77,
+                12,
+                49,
+                132,
+                0,
+                37,
+                59,
+                99,
+                143,
+                173,
+                135,
+                144,
+                124,
+                172,
+                32,
+                23,
+                95,
+                164,
+                100,
+                139,
+                148,
+                169,
+                2,
+                71,
+                84,
+                138,
+                134,
+                36,
+                85,
+                66,
+                55,
+                52,
+                9,
+                119,
+                92,
+                126,
+                35,
+                123,
+                155,
+                68,
+                117,
+                1,
+                160,
+                109,
+                7,
+                153,
+                21,
+                107,
+                151,
+                27,
+                10,
+                121,
+                162,
+                175,
+                161,
+                159,
+                74
+            ],
+            "validation_inds": [
+                44,
+                104,
+                64,
+                53,
+                45,
+                152,
+                72,
+                165,
+                76,
+                97,
+                168,
+                129,
+                171,
+                17,
+                115,
+                156,
+                28,
+                147
+            ],
+            "test_inds": null,
+            "search_path_hints": [
+                "",
+                ""
+            ],
+            "skeletons": [
+                {
+                    "directed": true,
+                    "graph": {
+                        "name": "Skeleton-0",
+                        "num_edges_inserted": 12
+                    },
+                    "links": [
+                        {
+                            "edge_insert_idx": 0,
+                            "key": 0,
+                            "source": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "1 - Head",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "2",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/reduce": [
+                                    {
+                                        "py/type": "sleap.skeleton.EdgeType"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            1
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 1,
+                            "key": 0,
+                            "source": {
+                                "py/id": 2
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "3",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 2,
+                            "key": 0,
+                            "source": {
+                                "py/id": 4
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "4",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 3,
+                            "key": 0,
+                            "source": {
+                                "py/id": 5
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "5",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 4,
+                            "key": 0,
+                            "source": {
+                                "py/id": 6
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "6",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 5,
+                            "key": 0,
+                            "source": {
+                                "py/id": 7
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "7 - Midpoint",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 6,
+                            "key": 0,
+                            "source": {
+                                "py/id": 8
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "8",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 7,
+                            "key": 0,
+                            "source": {
+                                "py/id": 9
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "9",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 8,
+                            "key": 0,
+                            "source": {
+                                "py/id": 10
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "10",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 9,
+                            "key": 0,
+                            "source": {
+                                "py/id": 11
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "11",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 10,
+                            "key": 0,
+                            "source": {
+                                "py/id": 12
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "12",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 11,
+                            "key": 0,
+                            "source": {
+                                "py/id": 13
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "13 - Tail",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        }
+                    ],
+                    "multigraph": true,
+                    "nodes": [
+                        {
+                            "id": {
+                                "py/id": 1
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 2
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 4
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 5
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 6
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 7
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 8
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 9
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 10
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 11
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 12
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 13
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 14
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "preprocessing": {
+            "ensure_rgb": false,
+            "ensure_grayscale": false,
+            "imagenet_mode": null,
+            "input_scaling": 1.0,
+            "pad_to_stride": 1,
+            "resize_and_pad_to_target": true,
+            "target_height": 1080,
+            "target_width": 1920
+        },
+        "instance_cropping": {
+            "center_on_part": "7 - Midpoint",
+            "crop_size": 240,
+            "crop_size_detection_padding": 16
+        }
+    },
+    "model": {
+        "backbone": {
+            "leap": null,
+            "unet": {
+                "stem_stride": null,
+                "max_stride": 16,
+                "output_stride": 4,
+                "filters": 64,
+                "filters_rate": 2.0,
+                "middle_block": true,
+                "up_interpolate": true,
+                "stacks": 1
+            },
+            "hourglass": null,
+            "resnet": null,
+            "pretrained_encoder": null
+        },
+        "heads": {
+            "single_instance": null,
+            "centroid": null,
+            "centered_instance": {
+                "anchor_part": "7 - Midpoint",
+                "part_names": [
+                    "1 - Head",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7 - Midpoint",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13 - Tail"
+                ],
+                "sigma": 1.5,
+                "output_stride": 4,
+                "loss_weight": 1.0,
+                "offset_refinement": false
+            },
+            "multi_instance": null,
+            "multi_class_bottomup": null,
+            "multi_class_topdown": null
+        },
+        "base_checkpoint": null
+    },
+    "optimization": {
+        "preload_data": true,
+        "augmentation_config": {
+            "rotate": true,
+            "rotation_min_angle": -180.0,
+            "rotation_max_angle": 180.0,
+            "translate": false,
+            "translate_min": -5,
+            "translate_max": 5,
+            "scale": true,
+            "scale_min": 0.9,
+            "scale_max": 1.1,
+            "uniform_noise": true,
+            "uniform_noise_min_val": 0.0,
+            "uniform_noise_max_val": 20.0,
+            "gaussian_noise": true,
+            "gaussian_noise_mean": 4.0,
+            "gaussian_noise_stddev": 1.0,
+            "contrast": true,
+            "contrast_min_gamma": 0.5,
+            "contrast_max_gamma": 2.0,
+            "brightness": true,
+            "brightness_min_val": 0.0,
+            "brightness_max_val": 40.0,
+            "random_crop": false,
+            "random_crop_height": 256,
+            "random_crop_width": 256,
+            "random_flip": false,
+            "flip_horizontal": false
+        },
+        "online_shuffling": true,
+        "shuffle_buffer_size": 128,
+        "prefetch": true,
+        "batch_size": 8,
+        "batches_per_epoch": 460,
+        "min_batches_per_epoch": 200,
+        "val_batches_per_epoch": 49,
+        "min_val_batches_per_epoch": 10,
+        "epochs": 200,
+        "optimizer": "adam",
+        "initial_learning_rate": 0.0001,
+        "learning_rate_schedule": {
+            "reduce_on_plateau": true,
+            "reduction_factor": 0.5,
+            "plateau_min_delta": 1e-06,
+            "plateau_patience": 5,
+            "plateau_cooldown": 3,
+            "min_learning_rate": 1e-08
+        },
+        "hard_keypoint_mining": {
+            "online_mining": true,
+            "hard_to_easy_ratio": 2.0,
+            "min_hard_keypoints": 7,
+            "max_hard_keypoints": null,
+            "loss_scale": 5.0
+        },
+        "early_stopping": {
+            "stop_training_on_plateau": true,
+            "plateau_min_delta": 1e-08,
+            "plateau_patience": 20
+        }
+    },
+    "outputs": {
+        "save_outputs": true,
+        "run_name": "250319_030047.centered_instance.n=181",
+        "run_name_prefix": "U16U16",
+        "run_name_suffix": "",
+        "runs_folder": "C:/Users/pasca/OneDrive - Florida Atlantic University/Data_Folder/MachineLearning/Microfluidics_2nd_Real_Test_and_Current_Models\\models",
+        "tags": [
+            ""
+        ],
+        "save_visualizations": true,
+        "delete_viz_images": true,
+        "zip_outputs": false,
+        "log_to_csv": true,
+        "checkpointing": {
+            "initial_model": false,
+            "best_model": true,
+            "every_epoch": false,
+            "latest_model": false,
+            "final_model": false
+        },
+        "tensorboard": {
+            "write_logs": false,
+            "loss_frequency": "epoch",
+            "architecture_graph": false,
+            "profile_graph": false,
+            "visualizations": true
+        },
+        "zmq": {
+            "subscribe_to_controller": true,
+            "controller_address": "tcp://127.0.0.1:9000",
+            "controller_polling_timeout": 10,
+            "publish_updates": true,
+            "publish_address": "tcp://127.0.0.1:9001"
+        }
+    },
+    "name": "",
+    "description": "",
+    "sleap_version": "1.3.4",
+    "filename": "C:/Users/pasca/OneDrive - Florida Atlantic University/Data_Folder/MachineLearning/Microfluidics_2nd_Real_Test_and_Current_Models\\models\\U16U16250319_030047.centered_instance.n=181\\training_config.json"
+}
